@@ -1,0 +1,49 @@
+.footer {
+  background: #0fa85a;
+  padding: 40px 20px 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.footer-logo h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.footer-logo p {
+  margin-top: 8px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.social-icon img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon img:hover {
+  transform: scale(1.12);
+  opacity: 0.85;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-top: 15px;
+  font-size: 14px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
