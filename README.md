@@ -1,19 +1,21 @@
-📌 Project Setup Guide (Backend + Frontend)
+## 📌 Project Setup Guide (Backend + Frontend)
 
-This project is a Full-Stack (MERN) web application with authentication, email OTP, SMS OTP, cookies, JWT, and API integrations.
-Follow the steps below to run it locally.
+**This project is a Full-Stack (MERN) web application with authentication, email OTP, SMS OTP, cookies, JWT, and API integrations.
+Follow the steps below to run it locally.**
 
-⚙️ Backend Setup (Server)
-1️⃣ Go to the server folder
+## ⚙️ Backend Setup (Server)
+### 1️⃣ Go to the server folder
+```bash
 cd server
-
-2️⃣ Install dependencies
+```
+### 2️⃣ Install dependencies
+```bash
 npm install
-
-3️⃣ Create a config.env file
+```
+### 3️⃣ Create a config.env file
 
 Create a file named config.env in your server folder and paste the following:
-
+```bash
 PORT=4000
 FRONTEND_URL=http://localhost:5173
 
@@ -34,30 +36,35 @@ JWT_EXPIRE=7d
 
 COOKIE_EXPIRE=7
 
+```
 
-
-4️⃣ Start backend server
+### 4️⃣ Start backend server
+```bash
 npm run dev
+```
 
-
-💻 Frontend Setup (Client)
-1️⃣ Go to the client folder
+## 💻 Frontend Setup (Client)
+### 1️⃣ Go to the client folder
+```bash
 cd client
-
-2️⃣ Install dependencies
+```
+### 2️⃣ Install dependencies
+```bash
 npm install
-
-3️⃣ Start frontend
+```
+### 3️⃣ Start frontend
+```bash
 npm run dev
+```
 
+**✔️ You're Ready!**
 
-✔️ You're Ready!
-
-Now your backend runs at:
-
+### Now your backend runs at:
+```bash
 http://localhost:4000
-
+```
 
 And frontend runs at:
-
+```bash
 http://localhost:5173
+```
